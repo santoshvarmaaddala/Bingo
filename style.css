@@ -10,6 +10,7 @@ body{
     display: grid;
     grid-template-columns: repeat(10, 95px);
     grid-gap: 0px;
+    z-index: 1;
 }
 
 .circle {
@@ -44,7 +45,7 @@ body{
 #generateButton{
     background-color: blue;
     color: yellow;
-    position: absolute;
+    position: fixed;
     bottom: 35%; 
     right: 90px;
     font-size: large;
